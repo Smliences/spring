@@ -6,4 +6,5 @@
     <bean id="myFactoryBean" class="com.mashibing.MyFactoryBean">
 
     </bean>
+    <bean id="a" class="com.mashibing.cycle.A"></bean>
 </beans>

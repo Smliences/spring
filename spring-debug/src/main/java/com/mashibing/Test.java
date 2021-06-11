@@ -9,8 +9,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
     public static void main(String[] args) {
-////        MyClassPathXmlApplicationContext ac = new MyClassPathXmlApplicationContext("factoryBean.xml");
-////        MyFactoryBean bean1 = (MyFactoryBean) ac.getBean( "&myFactoryBean");
+        MyClassPathXmlApplicationContext ac = new MyClassPathXmlApplicationContext("factoryBean.xml");
+//        MyFactoryBean bean1 = (MyFactoryBean) ac.getBean( "&myFactoryBean");
+        A bean = ac.getBean(A.class);
 ////        System.out.println(bean1);
 ////        User bean = (User) ac.getBean("myFactoryBean");
 ////        System.out.println(bean.getUsername());
